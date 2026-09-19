@@ -5,15 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Учебный проект по техническому заданию"
+      content="История Миланы о том, как игра на гитаре стала любимым хобби и способом переключаться."
     />
-    <title>Учебный проект</title>
+    <title>Игра на гитаре — история Миланы</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <main>
-      <h1>Учебный проект</h1>
-      <p>Стартовая версия страницы.</p>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="site-header__brand" href="#top">История Миланы</a>
+        <nav class="site-header__nav" aria-label="Разделы страницы">
+          <a href="#story">История</a>
+          <a href="#facts">Три факта</a>
+          <a href="#thought">Главная мысль</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top" class="container">
+      <section id="story" class="hero" aria-labelledby="hero-title">
+        <div class="hero__text">
+          <p class="eyebrow">Любимое хобби</p>
+          <h1 id="hero-title">Игра на гитаре — время для себя</h1>
+          <p class="hero__lead">
+            Милана начала учиться играть, чтобы самой исполнять любимые песни.
+            Со временем гитара стала способом выражать настроение, отдыхать и
+            переключаться от повседневных дел.
+          </p>
+          <a class="button" href="#facts">Узнать её историю</a>
+        </div>
+        <figure class="hero__photo">
+          <img
+            src="assets/guitar.jpg"
+            alt="Крупный план струн акустической гитары"
+            width="5184"
+            height="3456"
+          />
+          <figcaption>Музыка, к которой хочется возвращаться</figcaption>
+        </figure>
+      </section>
+
+      <section id="facts" class="facts" aria-labelledby="facts-title">
+        <div class="section-heading">
+          <p class="eyebrow">Три факта</p>
+          <h2 id="facts-title">Почему гитара стала важной</h2>
+          <p>От первых аккордов до привычки, которая помогает отдыхать.</p>
+        </div>
+
+        <div class="facts__grid">
+          <article class="fact-card">
+            <span class="fact-card__number">01</span>
+            <h3 class="fact-card__title">Почему начала</h3>
+            <p class="fact-card__text">
+              Милана хотела сама исполнять любимые песни, поэтому начала
+              разбирать аккорды и учиться играть.
+            </p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-card__number">02</span>
+            <h3 class="fact-card__title">Как развивается навык</h3>
+            <p class="fact-card__text">
+              Она регулярно разучивает новые композиции и постепенно играет
+              увереннее.
+            </p>
+          </article>
+          <article class="fact-card">
+            <span class="fact-card__number">03</span>
+            <h3 class="fact-card__title">Что это даёт</h3>
+            <p class="fact-card__text">
+              Гитара помогает отвлечься от повседневных дел, расслабиться и
+              выразить своё настроение.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="thought" class="thought" aria-labelledby="thought-title">
+        <p class="eyebrow">Главная мысль</p>
+        <h2 id="thought-title">Гитара стала частью повседневной жизни</h2>
+        <blockquote class="thought__quote">
+          <p>
+            «Мне нравится момент, когда песня, которая сначала совсем не
+            получалась, постепенно начинает звучать так, как хотелось».
+          </p>
+          <footer>Милана</footer>
+        </blockquote>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <p>История составлена по интервью с Миланой.</p>
+        <p>
+          Фото:
+          <a href="https://commons.wikimedia.org/wiki/File:Close-up_Acoustic_Guitar.jpg">Pisethinfo / Wikimedia Commons</a>,
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
