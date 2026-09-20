@@ -1,6 +1,6 @@
 Источник ТЗ: [текущий файл в репозитории Миланы](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md)
 PR с ТЗ: [#2](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/2)
-Правка пункта 2.3 и согласования: [#4](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/4)
+PR с небольшим фиксом тз: [#4](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/4)
 
 ---
 
