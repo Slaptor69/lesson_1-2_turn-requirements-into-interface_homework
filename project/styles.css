@@ -80,6 +80,12 @@ a:focus-visible {
   background: var(--color-card);
 }
 
+.hero__text,
+.hero__photo,
+.fact-card {
+  min-width: 0;
+}
+
 .eyebrow {
   margin: 0 0 14px;
   color: var(--color-accent);
@@ -239,6 +245,10 @@ h2 {
   margin: 0;
 }
 
+.site-footer a {
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 800px) {
   .hero {
     grid-template-columns: 1fr;
@@ -272,6 +282,10 @@ h2 {
   .hero {
     gap: 28px;
     margin-top: 20px;
+    padding: 24px;
+  }
+
+  .fact-card {
     padding: 24px;
   }
 

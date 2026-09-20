@@ -1,8 +1,9 @@
-Источник ТЗ: [файл в репозитории Миланы](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/blob/Final-Fix/tech-task-template.md)
+Источник ТЗ: [текущий файл в репозитории Миланы](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/blob/master/tech-task-template.md)
 PR с ТЗ: [#2](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/2)
-Правка пункта 2.3: [коммит 8437cdd](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/commit/8437cdd22f232ccfa262459a620a9a9326c0e4de)
+Правка пункта 2.3 и согласования: [#4](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/4)
 
 ---
+
 # Шаблон ТЗ: история о человеке
 
 ## Темы на выбор
@@ -161,13 +162,13 @@ PR с ТЗ: [#2](https://github.com/milanaa1/lesson_1-2_turn-requirements-into-i
 
 ### Проверка заказчика
 
-- [ ] Факты и смысл переданы верно.
-- [ ] Запрещённая информация отсутствует.
-- [ ] Приоритеты и желаемое действие указаны правильно.
-- [ ] ТЗ можно передавать в реализацию.
+- [x] Факты и смысл переданы верно.
+- [x] Запрещённая информация отсутствует.
+- [x] Приоритеты и желаемое действие указаны правильно.
+- [x] ТЗ можно передавать в реализацию.
 
-**Комментарий заказчика:** [«ТЗ СОГЛАСОВАНО» ИЛИ ОДИН КОНКРЕТНЫЙ ЗАПРОС НА УТОЧНЕНИЕ]
+**Комментарий заказчика:** [ТЗ СОГЛАСОВАНО]
 
-**Ссылка на PR с ТЗ:** [ВСТАВИТЬ ССЫЛКУ]
+**Ссылка на PR с ТЗ:** [https://github.com/milanaa1/lesson_1-2_turn-requirements-into-interface_practice/pull/2]
 
-**Статус:** [DRAFT / СОГЛАСОВАНО / MERGED]
+**Статус:** [MERGED]
